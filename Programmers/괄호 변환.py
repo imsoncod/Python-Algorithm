@@ -1,3 +1,4 @@
+#올바른 괄호인지 판별
 def isright(u):
     if u=='':
         return True
@@ -10,7 +11,7 @@ def isright(u):
         if temp<0:
             return False
     return True
-
+#u,v로 문자열 분배
 def split(v):
     if v=='':
         return ''
