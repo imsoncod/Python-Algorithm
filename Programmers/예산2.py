@@ -1,3 +1,4 @@
+#이분 탐색
 def solution(budgets, M):
     ans = 0
     budgets.sort()
