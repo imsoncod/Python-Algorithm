@@ -1,6 +1,6 @@
 ## [Programmers](https://programmers.co.kr/learn/challenges)
 #### 이름 : imsoncod
-#### 순위 : 64
+#### 순위 : 69
 #### 흭득한 점수 : 1519
 #### 해결한 문제수 : 154
 #### 언어 : Python
