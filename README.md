@@ -23,3 +23,4 @@
 #### 2020 Summer Coding - 여름방학 스타트업 인턴 프로그램 코딩 테스트 : 2020-05-23
 #### 2020 TOSS NEXT DEVELOPER RECRUITMENT 코딩 테스트 : 2020-08-01
 #### 2020 Dev-Matching: 게임 개발자 코딩 테스트 : 2020-08-08
+#### COS PRO 1급 : 2020-08-23
