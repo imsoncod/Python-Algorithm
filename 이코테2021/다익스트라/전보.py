@@ -19,9 +19,10 @@ while q:
     if distance[now] < dist:
         continue
     for i in graph[now]:
-        cost = distance[now] + i[1]
+        cost = dist + i[1]
         if cost < distance[i[0]]:
             distance[i[0]] = cost
+            heapq.heappush(q, (cost, i[0]))
 
 cnt = 0
 max_dist = 0
@@ -29,5 +30,5 @@ for dist in distance:
     if dist != 1e9:
         cnt += 1
         max_dist = max(max_dist, dist)
-        
+
 print(cnt - 1, max_dist)
