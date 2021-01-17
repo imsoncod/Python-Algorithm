@@ -27,3 +27,4 @@
 #### 2021 KAKAO BLIND RECRUITMENT : 2020-09-12
 #### 2020 Dev-Matching: 웹 백엔드 개발자(하반기) : 2020-10-10
 #### 2020 Winter Coding - 겨울방학 스타트업 인턴 프로그램 코딩 테스트 : 2020-10-31
+#### 2021 Code Challenge In Japan : 2021-01-17
