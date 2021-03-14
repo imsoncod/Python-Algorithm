@@ -29,3 +29,25 @@ def solution(expression):
         answer = max(answer, abs(res))
 
     return answer
+
+#정규표현식을 이용한 풀이2
+import re
+from itertools import permutations
+
+def solution(expression):
+    result = 0
+    
+    operation = [op for op in ['*','+','-'] if op in expression]
+    cases = [op for op in permutations(operation)]
+    expression = re.split(r'(\D)',expression)
+    
+    for case in cases:
+        ex = expression[:]
+        for op in case:
+            while op in ex:
+                idx = ex.index(op)
+                ex[idx-1] = str(eval(ex[idx-1] + ex[idx] + ex[idx+1]))
+                ex = ex[:idx] + ex[idx+2:]
+        result = max(result, abs(int(ex[-1])))
+        
+    return result
